@@ -1,6 +1,7 @@
 ## Meeting Minutes Skill
 
 This skill file was created as a means to help provide a sense of standardization to meeting minutes generated as part of my day job.
+The skill expects to be given a transcript file that it will then process to generate the minutes from.
 It instructs the model to create, by default, terse minutes, but you have the option increase the verbosity using the switches: `standard` or `verbose`.
 The switches do not alter the factual information of the minutes, but instead reduce the amount of text produced to convey the information.
 The rendered meeting minutes are output as both PDF and Markdown files.
