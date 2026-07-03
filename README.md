@@ -7,6 +7,17 @@ The rendered meeting minutes are output as both PDF and Markdown files.
 
 By default, the skill file will turn a sentence like `The problem with Q1's forecast is that it excludes key information.` into `Q1's forecast excludes key information.`
 
+## Accepted Transcript File Formats
+
+This skill file works with the following transcript document formats:
+
+- `.doc`
+- `.docx`
+- `.md`
+- `.pdf`
+- `.txt`
+- `.vtt`
+
 ## Customization
 
 For the PDF files, glyph-friendly font options are used with the default being `DejaVu Serif`.
