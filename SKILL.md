@@ -1,6 +1,6 @@
 ---
 name: meeting-minutes
-description: Create standardized meeting minutes and summaries in PDF and Markdown formats given a supplied transcript in a common text-based format: plain-text (.txt), Markdown (.md), PDF (.pdf), Word documents (.doc/.docx), or .vtt. This information is based on the information provided by Boardbook in their Minutes 101 article.
+description: "Create standardized meeting minutes and summaries in PDF and Markdown formats given a supplied transcript in a common text-based format: plain-text (.txt), Markdown (.md), PDF (.pdf), Word documents (.doc/.docx), or .vtt. This information is based on the information provided by Boardbook in their Minutes 101 article."
 ---
 
 Create standardized meeting minutes to increase the quality of meeting summaries and post-meeting tasks.
