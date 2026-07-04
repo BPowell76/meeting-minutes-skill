@@ -1,10 +1,24 @@
 ---
 name: meeting-minutes
-description: Create standardized meeting minutes in PDF and Markdown formats given a supplied transcript in a common text-based format: plain-text (.txt), Markdown (.md), PDF (.pdf), Word documents (.doc/.docx), or .vtt. This information is based on the information provided by Boardbook in their Minutes 101 article.
+description: Create standardized meeting minutes and summaries in PDF and Markdown formats given a supplied transcript in a common text-based format: plain-text (.txt), Markdown (.md), PDF (.pdf), Word documents (.doc/.docx), or .vtt. This information is based on the information provided by Boardbook in their Minutes 101 article.
 ---
 
 Create standardized meeting minutes to increase the quality of meeting summaries and post-meeting tasks.
 The reports are output in both PDF and Markdown formats using a default page size of Letter with fixed 1" margins and default font selection of 10 pt DejaVu Serif.
+
+## Document Mode
+
+This skill supports 2 types of documents: 1) `summary`, and 2) `minutes` (the implied default)
+
+| Mode                  | Verbosity                 | User Confirmations        | Sections Included                                                             |
+| :---:                 | :---                      | :---                      | :---                                                                          |
+| `minutes` (default)   | Per Verbosity Settings    | All items 1 - 6           | All 8 sections (see Document Layout)                                          |
+| `summary`             | Forced `terse`            | Items 4 - 6 only          | Title Page, Key Points, Decisions, Action Items, Follow-Up & Next Meeting     |
+
+In `summary` mode, the title page does not require its own page, overriding the page-break rule in Document Layout and the length-based condition in Document Design.
+In `summary` mode, set the maximum document length as 1 page per 30-minutes.
+If the meeting length is not known, use timestamps in `.vtt` transcripts to estimate the length of the meeting.
+Otherwise or if the timestamps are missing, limit the document to 3 pages.
 
 ## Verbosity Settings
 
