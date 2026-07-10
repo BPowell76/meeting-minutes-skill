@@ -70,7 +70,7 @@ For the page size, the default is set to `Letter`, but you have the option to us
 
 ## Example Content
 
-Examples of the generated `minutes` and `summary` document styles can be found in [docs/](./docs)
+Examples of the generated `minutes` and `summary` document styles can be found in [docs/](./docs).
 For the examples, all sections are shown with the default options used.
 
 > [!NOTE]
