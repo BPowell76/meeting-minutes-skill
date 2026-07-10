@@ -68,6 +68,14 @@ For the page size, the default is set to `Letter`, but you have the option to us
 - `Legal`
 - `Tabloid/Ledger`
 
+## Example Content
+
+Examples of the generated `minutes` and `summary` document styles can be found in [docs/](./docs)
+For the examples, all sections are shown with the default options used.
+
+> [!NOTE]
+> These documents were generated randomly by Claude Sonnet 5. All similarity to actual events is purely coincidental.
+
 ## License
 
 This skill file is licensed under the MIT license.
